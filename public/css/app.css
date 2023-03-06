@@ -1,0 +1,94 @@
+.navbar-brand {
+    height: 100px;
+    width: 100px;
+}
+
+.navbar-nav {
+    font-weight: bold;
+}
+
+#btn-conference {
+    font-size: small;
+    padding: 0.5em;
+    margin-top: 0;
+}
+
+.footer-links li,
+.footer-links li a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer #footer-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.footer {
+    background-color: #fcfcfc;
+    border-top: 1px solid #e7e7e7;
+}
+
+.footer-p {
+    font-size: large;
+}
+
+#contactForm .subscribeBtn {
+    text-align: center;
+    margin-top: -10px;
+}
+
+#services .rounded-circle {
+    height: 130px;
+    width: 130px;
+}
+
+#portfolio hr {
+    color: #ffa500;
+    width: 15%;
+    height: 0.2em;
+    font-weight: bolder;
+    margin: 15px auto;
+}
+
+.blog-text .continueBlog {
+    color: red;
+}
+
+.plusSymbol,
+.counter {
+    font-weight: 400;
+    color: orange;
+}
+
+.portfolio-item {
+    background-color: black;
+}
+
+.countBloc {
+    background-color: #ffa500;
+}
+
+#sotmTwitter {
+    text-align: center;
+    color: #fff;
+    background-image: url("../../assets/img/sections-background/twitter-feed.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-color: transparent;
+}
+
+#sotmTwitter .twitterIcon {
+    color: white;
+}
+
+#sotmTwitter a {
+    text-decoration: none;
+}
+
+#sotmTwitter .twitterPage {
+    font-size: 2.5rem;
+    font-weight: 200;
+}
