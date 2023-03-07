@@ -16,3 +16,5 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/', 'App\Http\Controllers\HomeController@index')->name('home');
 Route::get('/about', 'App\Http\Controllers\HomeController@about')->name('about');
+
+Route::get('/fr/about', 'App\Http\Controllers\HomeController@aboutFr')->name('about-fr');

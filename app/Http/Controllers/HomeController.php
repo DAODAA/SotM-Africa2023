@@ -26,4 +26,12 @@ class HomeController extends Controller
 
         return view('about')->with('viewData', $viewData);
     }
+
+    public function aboutFr()
+    {
+        $viewData=[];
+        $viewData['title']="About Page-SotmAfrica2023 fr";
+
+        return view('aboutfr')->with('viewData', $viewData);
+    }
 }

@@ -140,49 +140,63 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Sponsors</h2>
-                <h3 class="section-subheading text-muted">Gold sponsors</h3>
             </div>
             <div class="row">
-                <div class="col-lg-4">
-
-                </div>
-                <div class="col-lg-4">
-
-                </div>
-                <div class="col-lg-4">
-
-                </div>
-            </div>
-            <div class="row">
+                <h3 class="section-subheading text-muted text-center">Gold sponsors</h3>
                 <div class="col-lg-8 mx-auto text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
-                        laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                    <ul class="partners-section d-flex flex-row">
+                        <li>
+                            <a href="https://hotosm.org/" target="_blank">
+                                <img src="{{ asset('assets/img/partners/hotosm.png') }}"
+                                    title="Humanitarian OpenStreetMap Team" alt="HOT">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.afd.fr/en" target="_blank"> <img
+                                    src="{{ asset('assets/img/partners/afd.png') }}"
+                                    title="Agence Française de Développement" alt="AFD">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <h3 class="section-subheading text-muted text-center">Bronze sponsors</h3>
+                <div class="col-lg-8 mx-auto text-center">
+                    <ul class="partners-section d-flex flex-row">
+                        <li>
+                            <a href="https://kaart.com/" target="_blank"> <img
+                                    src="{{ asset('assets/img/partners/kaart.svg') }}" title="Kaart" alt="Kaart">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://critigen.com/" target="_blank"> <img
+                                    src="{{ asset('assets/img/partners/critigen.png') }}" title="Critigen"
+                                    alt="Critigen">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
     <!-- Clients-->
-    <div class="py-5">
+    <div class="py-3">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto"
-                            src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg"
-                            alt="..." aria-label="Google Logo" /></a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto"
-                            src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg"
-                            alt="..." aria-label="IBM Logo" /></a>
-                </div>
+            <div class="row text-center">
+                <h5 class="display-6">Supporters</h5>
+                <ul>
+                    <li class="list-unstyled"> <a href="http://openstreetmap.fr/" target="_blank"
+                            class="text-decoration-none">
+                            <!-- <img src="/img/supporters/" title="Supporter" alt="OSM France"> --> OSM France
+                        </a></li>
+                </ul>
             </div>
         </div>
+    </div>
+
+    <div class="my-4 text-center becomeSponsor">
+        <a class="btn btn-secondary text-uppercase shadow" href="#">Become a sponsor</a>
     </div>
     <!-- Contact-->
     <section class="page-section" id="contact">
@@ -203,7 +217,7 @@
                     <div class="col-md-6">
                         <div class="form-group mx-4">
                             <!-- Email address input-->
-                            <input class="form-control" id="email" type="email" placeholder="name@mail.com"
+                            <input class="form-control py-2" id="email" type="email" placeholder="name@mail.com"
                                 data-sb-validations="required,email" aria-describedby="emailHelp" />
                             <div id="emailHelp" class="form-text text-center text-white">Subscribe to our email list</div>
                             <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.
@@ -212,7 +226,7 @@
                         </div>
                         <!-- Submit Button-->
                         <div class="col-md-text-center subscribeBtn"><button
-                                class="btn btn-primary btn-xl text-uppercase " id="submitButton"
+                                class="btn btn-primary btn-xl text-uppercase py-1" id="submitButton"
                                 type="submit">Submit</button>
                         </div>
                     </div>

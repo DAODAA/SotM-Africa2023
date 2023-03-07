@@ -32,8 +32,8 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand logo logo-light" href="{{ route('home') }}"><img
-                    src="{{ asset('logos/SotmAfrica2023.svg') }}" alt="SotmAfrica2023_logo" /></a>
+            <a class="navbar-brand logo" href="{{ route('home') }}"><img src="{{ asset('logos/SotmAfrica2023.svg') }}"
+                    alt="SotmAfrica2023_logo" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -42,10 +42,10 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">CALL FOR PARTICIPATION</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">BLOG</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#call">CALL FOR PARTICIPATION</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">BLOG</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">ABOUT</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">SPONSORS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sponsors">SPONSORS</a></li>
                 </ul>
             </div>
         </div>
@@ -58,14 +58,14 @@
         <div class="container">
             <div class="row footer-links py-4">
                 <div class="col-md-2 ">
-                    <p class="footer-p">Contacts</p>
+                    <h5 class="footer-p">Contacts</h5>
                     <ul>
                         <li> <a class="text-reset" href=" mailto:contact@stateofthemap.africa "
                                 target="_blank">contact@stateofthemap.africa</a></li>
                     </ul>
                 </div>
                 <div class="col-md-8">
-                    <p class="footer-p">Links</p>
+                    <h5 class="footer-p">Links</h5>
                     <ul>
                         <li><a class="text-reset"
                                 href="https://wiki.openstreetmap.org/wiki/State_of_the_Map_Africa_2023 "

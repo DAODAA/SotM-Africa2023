@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .navbar-brand {
     height: 100px;
     width: 100px;
@@ -30,7 +34,7 @@
 }
 
 .footer-p {
-    font-size: large;
+    font-weight: 200;
 }
 
 #contactForm .subscribeBtn {
@@ -75,7 +79,7 @@
     background-image: url("../../assets/img/sections-background/twitter-feed.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center center !important;
+    background-position: center !important;
     background-size: cover !important;
     background-color: transparent;
 }
@@ -91,4 +95,40 @@
 #sotmTwitter .twitterPage {
     font-size: 2.5rem;
     font-weight: 200;
+}
+
+#team .partners-section a {
+    text-decoration: none;
+}
+
+#team .partners-section li {
+    list-style: none;
+}
+
+#team .partners-section img {
+    filter: grayscale(1);
+    vertical-align: middle;
+    max-width: 50%;
+}
+
+#team .partners-section img:hover {
+    transition: all 0.3s;
+    filter: grayscale(0);
+}
+
+.becomeSponsor a {
+    background-color: orange !important;
+    color: #fff;
+    border: none;
+    font-size: small;
+}
+
+
+#jumboSection {
+    color: #fff;
+    background-image: url("../../assets/img/sections-background/bassam_jump.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center !important;
+    background-size: cover !important;
 }
